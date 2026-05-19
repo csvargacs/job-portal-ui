@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
+    <footer className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/3 w-96 h-96 bg-gradient-to-br from-primary-600/10 to-purple-600/10 rounded-full blur-3xl"></div>
@@ -144,10 +144,10 @@ const Footer = () => {
               <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
                 <span className="relative z-10">Privacy Policy</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary-600/20 to-purple-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-                <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-72 bg-gray-800 border border-gray-700 text-gray-200 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
+                <div className="absolute bottom-full left-0 mb-3 w-72 bg-gray-800 border border-gray-700 text-gray-200 text-xs rounded-lg p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none z-50 shadow-xl">
                   <p className="font-semibold text-white mb-1">Privacy Policy</p>
                   <p>We collect and process your personal data solely to provide and improve our services. Your data is never sold to third parties. You may request access, correction, or deletion of your data at any time.</p>
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 border-4 border-transparent border-t-gray-800"></div>
+                  <div className="absolute top-full left-6 border-4 border-transparent border-t-gray-800"></div>
                 </div>
               </a>
               <a className="group relative hover:text-white transition-colors duration-300 cursor-pointer">
